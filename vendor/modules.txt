@@ -6,6 +6,38 @@ cloud.google.com/go/internal/btree
 cloud.google.com/go/internal/fields
 cloud.google.com/go/internal/trace
 cloud.google.com/go/internal/version
+# github.com/aws/aws-sdk-go-v2 v0.20.0
+github.com/aws/aws-sdk-go-v2/aws
+github.com/aws/aws-sdk-go-v2/aws/awserr
+github.com/aws/aws-sdk-go-v2/aws/crr
+github.com/aws/aws-sdk-go-v2/aws/defaults
+github.com/aws/aws-sdk-go-v2/aws/ec2metadata
+github.com/aws/aws-sdk-go-v2/aws/ec2rolecreds
+github.com/aws/aws-sdk-go-v2/aws/endpointcreds
+github.com/aws/aws-sdk-go-v2/aws/endpoints
+github.com/aws/aws-sdk-go-v2/aws/external
+github.com/aws/aws-sdk-go-v2/aws/processcreds
+github.com/aws/aws-sdk-go-v2/aws/ratelimit
+github.com/aws/aws-sdk-go-v2/aws/retry
+github.com/aws/aws-sdk-go-v2/aws/signer/v4
+github.com/aws/aws-sdk-go-v2/aws/stscreds
+github.com/aws/aws-sdk-go-v2/internal/awsutil
+github.com/aws/aws-sdk-go-v2/internal/ini
+github.com/aws/aws-sdk-go-v2/internal/rand
+github.com/aws/aws-sdk-go-v2/internal/sdk
+github.com/aws/aws-sdk-go-v2/internal/sdkio
+github.com/aws/aws-sdk-go-v2/internal/sync/singleflight
+github.com/aws/aws-sdk-go-v2/internal/timeconv
+github.com/aws/aws-sdk-go-v2/private/protocol
+github.com/aws/aws-sdk-go-v2/private/protocol/json/jsonutil
+github.com/aws/aws-sdk-go-v2/private/protocol/jsonrpc
+github.com/aws/aws-sdk-go-v2/private/protocol/query
+github.com/aws/aws-sdk-go-v2/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go-v2/private/protocol/rest
+github.com/aws/aws-sdk-go-v2/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go-v2/service/dynamodb
+github.com/aws/aws-sdk-go-v2/service/sts
+github.com/aws/aws-sdk-go-v2/service/sts/stsiface
 # github.com/fsnotify/fsnotify v1.4.7
 github.com/fsnotify/fsnotify
 # github.com/golang/protobuf v1.3.1
@@ -35,6 +67,8 @@ github.com/hashicorp/hcl/hcl/token
 github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/json/scanner
 github.com/hashicorp/hcl/json/token
+# github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af
+github.com/jmespath/go-jmespath
 # github.com/magiconair/properties v1.8.1
 github.com/magiconair/properties
 # github.com/mitchellh/mapstructure v1.1.2
@@ -85,7 +119,7 @@ go.opencensus.io/trace
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
-# golang.org/x/net v0.0.0-20190522155817-f3200d17e092
+# golang.org/x/net v0.0.0-20200202094626-16171245cfb2
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
